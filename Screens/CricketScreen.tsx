@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Image, View } from 'react-native';
+import { StyleSheet, Image, View,Text } from 'react-native';
 import Header from '../components/Header';
 
 export default class CricketScreen extends React.Component {
@@ -7,7 +7,7 @@ export default class CricketScreen extends React.Component {
   return (
     <View  style={styles.container}>
        <Header title="Sports App"></Header>
-      Welcome to Cricket!
+        <Text>Welcome to Cricket!</Text>
       <Image
           style={styles.logo}
           source={{uri: 'https://icons.iconarchive.com/icons/martin-berube/sport/256/Cricket-icon.png'}} />
